@@ -1,0 +1,205 @@
+@font-face {
+    font-family: "Anton";
+    src: url(fonts/Anton/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: "WDXL";
+    src: url(fonts/WDXL_Lubrifont_TC/WDXLLubrifontTC-Regular.ttf);
+
+}
+/**{
+    margin: 0;
+    padding: 0;
+}*/
+
+body{
+    background-color: beige ;
+    font-family: 'WDXL';
+    font-size: 20px;
+    /* Same as above
+    font:normal 30px 'Anton', sans-serif ;
+    */
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.clr{
+     clear: both;
+}
+
+.box-1 h1{
+    font-family: 'Anton';
+    font-weight: 900px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(35, 13, 41);
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+
+}
+a:active{
+    color: green;
+}
+/*a:visited{
+    color: black;
+}*/
+
+.container{
+     width: 80%;
+     margin: auto;
+    
+}
+.button{    color: aliceblue;
+    background-color: #333;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: rgb(110, 161, 255);
+    color: #fff;
+
+}
+
+.box-1{
+    background-color: rgb(189, 226, 221);
+    color: rgb(158, 120, 71);
+    border-bottom-width: 15px;
+    border-top-style: dashed;
+    border: 8px rgb(110, 161, 255) solid;
+    padding-top:20px ;
+    padding-right:20px ;
+    padding-left:20px ;
+    padding-bottom:20px ;
+    /*Same as above*/
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.box-2{
+    border: 3px dashed #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px #ccc solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style: none;
+}
+
+.categories li{
+    padding-bottom:6px ;
+    border-bottom:dotted 1px #333;
+    list-style-image: url(images/check.png);
+}
+
+.my-form{
+    padding: 20px;
+
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea, input[type="email"]
+{
+    padding: 8px;
+    width: 100%
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color:chartreuse;
+    color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 50px;
+    position: relative;
+    background-image: url(images/flowers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.my-list li:first-child{
+    background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(4){
+    background-image: url(images/flowers.jpg);
+    background-position: center left;
+}
+.my-list li:nth-child(even){
+    background-image: url(images/flowers.jpg);
+    background-position: center left;
+}
